@@ -1,7 +1,23 @@
 
-  # Admin Dashboard for Parking
+# 개요
+- 사용자가 본인의 차량 등록을 하게 되었을때 주차장 관리자에게 해당 번호와 차가 들어온 시간, 나간 시간, 요금이 보이도록 해서 관리자가 혹시 모를 오류에 대비 할수 있는 관리자 페이지가 필요하다고 생각
 
-  This is a code bundle for Admin Dashboard for Parking. The original project is available at https://www.figma.com/design/BKO13GNMxFQOP8g9u77byk/Admin-Dashboard-for-Parking.
+# 기능
+1. 주차장에 들어온 모든 차량들의 차량 번호를 한눈에 볼 수 있다.
+2. 해당 차들의 입차, 출차 시간을 볼 수 있다.
+3. 해당 차량의 주차 요금을 볼 수 있다.
+
+## 시나리오
+- User 측면
+	1. 사용자가 사용자의 페이지에서 본인의 차량 번호 입력
+	2. 관리자 페이지에 해당 차량의 번호, 입차, 출차, 요금 정보가 들어감.
+
+- 관리차 측면
+	1. 관리자 아이디/비밀번호로 로그인
+		- 아이디 : admin / 비밀번호 : admin123
+	2. 한 페이지에 차량 번호, 입차,출차, 요금 볼 수 있음
+
+
 
   ## Running the code
 
