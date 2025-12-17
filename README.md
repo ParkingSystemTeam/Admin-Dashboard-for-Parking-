@@ -24,4 +24,15 @@
   Run `npm i` to install the dependencies.
 
   Run `npm run dev` to start the development server.
+  - 이 프로젝트(Vite dev server)는 기본 포트를 `5174`로 사용합니다. (`http://localhost:5174`)
+
+## API 연동 (서버: 8080)
+- 기본 API Base URL은 `http://localhost:8080` 입니다.
+- 다른 주소를 쓰려면 프로젝트 루트에 `.env`를 만들고 아래처럼 설정하세요.
+  - `VITE_API_BASE_URL=http://localhost:8080`
+- 프론트는 `GET /parking`(입차/출차/요금/상태 포함) 데이터를 불러와 대시보드 테이블에 표시합니다.
+
+## 페이지 경로
+- User 페이지: `/`
+- Admin 페이지: `/admin` (로그인 후 대시보드 표시)
   
